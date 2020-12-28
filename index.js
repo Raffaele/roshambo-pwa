@@ -95,7 +95,7 @@ function getRandomInt(max = 3) {
 // sw installation
 (function swInstallation() {
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('/sw.js');
+        navigator.serviceWorker.register('./sw.js');
     }
 } ());
 
