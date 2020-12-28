@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: palegoldenrod;
+}
+
+.main-title {
+    text-align: center;
+    background-color: darkgoldenrod;
+    margin-top: 0;
+    padding: 10px;
+    color: palegoldenrod;
+}
+
+.machine-section,
+.user-section {
+    text-align: center;
+    margin: 5vw;
+    padding: 10vh 0;
+    border-bottom: 5px lightseagreen solid;
+    height: 10vh;
+}
+
+#machine-symbol {
+    display: inline-block;
+    border: 1px red solid;
+    padding: 15px;
+    width: 25px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+
+.user-button {
+    padding: 15px;
+    margin: 0 5vw;
+    border-radius: 8px;
+}
+
+.user-button.selected {
+    background-color: gray;
+    color: white;
+}
+
+.result-section {
+    text-align: center;
+    color: gray;
+}
+
+#result-text[data-winner="MACHINE"] {
+    color: red;
+}
+
+#result-text[data-winner="USER"] {
+    color: green;
+}

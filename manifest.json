@@ -1,0 +1,21 @@
+{
+    "name": "Roshambo",
+    "short_name": "ROSHAMBO",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A simply roshambo app",
+    "theme_color": "#3367D6",
+    "icons": [
+        {
+            "src": "./icons/pwa-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./icons/pwa-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
