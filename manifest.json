@@ -1,7 +1,7 @@
 {
     "name": "Roshambo",
     "short_name": "ROSHAMBO",
-    "start_url": ".",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#fff",
     "description": "A simply roshambo app",
